@@ -1,0 +1,15 @@
+{
+  "name": "payment-service",
+  "version": "1.0.0",
+  "description": "Payment service for IDP demo",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "test": "node --test src/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
